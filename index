@@ -1,0 +1,228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Mobilambulansen UF</title>
+<script type="text/javascript" src="jquery.js"></script>
+<script src="redirection_mobile_self.js"></script>
+<script type="text/javascript" src="horizontal-scroll.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Kite+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Archivo+Narrow' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="images/favicon_3.png">
+<style type="text/css">
+* {
+	margin:0;
+	padding:0;
+	margin-bottom: 10px;
+}
+html {
+	height:100%;
+  /*overflow-x:hidden;*/
+	overflow-y:hidden;
+}
+body {
+	height:100%;
+}
+#wrap {
+	min-height:100%;
+	width:500%;
+	overflow:hidden;
+	background:#ff9900;
+	padding-top:4%;
+	height:1500px;
+}
+
+ul {
+	position:fixed;
+	width:100%;
+	height:80px;
+	line-height:40px;
+	text-align:center;
+	padding-top:20px;
+	padding-left:10px;
+	text-decoration:none;
+	background:url(images/bg.jpg) repeat;
+	border-bottom:3px solid #6e3700;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+li {
+	display:inline;
+	margin:15px;
+	text-decoration:none;
+	font-size:25px;
+}
+
+p {
+	margin:20px;
+	margin-top:-20px;
+	color:black;
+	text-align:center;
+	text-decoration:none;
+	font-family: 'Abel', sans-serif;
+	font-size:23px;
+}
+
+h1 {
+	font-family: 'Kite One', sans-serif;
+	font-size:50px;
+	padding:10px;
+	color:black;
+	margin-right:50%;
+}
+
+* html ul {
+	position:absolute;
+left:expression(0+((e=document.documentElement.scrollLeft)?e:document.body.scrollLeft)+'px');
+}
+* html {
+	background:url(fake.jpg)
+}
+* html #full {
+	height:100%;
+}
+</style>
+<link href="style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+a:link {
+	text-decoration: none;
+	color: #FFF;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+a:active {
+	text-decoration: none;
+	color: #333;
+}
+body,td,th {
+	color: #000;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Kite One", sans-serif;
+}
+
+#two p {
+	text-align:justify;
+}
+
+#three p {
+	text-align:justify;
+}
+
+</style>
+
+</head>
+<body>
+
+<div id="header_img">
+	<img src="images/header.png">
+</div>  
+<ul>
+  <li><a href="#two" class="button orange">Om oss</a></li>
+  <li><a href="#three" class="button orange">Våra produkter</a></li>
+  <!-- <img src="images/header.png"> -->
+  <li><a href="#four" class="button orange">Butik</a></li>
+  <li><a href="#five" class="button orange">Kontakta oss</a></li>
+  <li><a href="#six" class="button orange">Samarbetspartners</a></li>
+</ul>
+<div id="wrap">
+  
+  <div id="two">
+    <h1>Om oss</h1>
+    <table width="100%" cellpadding="0" cellspacing="10" border="0">
+      <tr>
+        <td width="50%" valign="top">
+        <p>
+        Mobilambulansen UF är ett företag som specialiserar sig på mobilprodukter av olika slag.
+        </p>
+        <p>
+        Vi är 3 teknikelever ifrån Falkenberg som alla är väldigt intresserade utav produktutveckling        och entreprenörskap.</p>
+        <p>
+        Nu när vi är inne på vårt sista år på Gymnasiet så var det dags att starta ett UF företag, och för oss så kändes produktutveckling
+        som ett naturligt steg att ta.
+        
+        </p></td>
+        <td width="50%" valign="top">
+        <img id="miley" src="images/demi_lovato_png_01_by_violkahhh.png">
+        
+        
+        &nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div id="three">
+    <h1>Våra produkter</h1>
+    <table width="100%" cellpadding="0" cellspacing="10" border="0">
+      <tr>
+        <td width="50%" valign="top">
+        <p>
+        Vi på mobilambulansen vill erbjuda dig produkter som är framtagna för att bibehålla kvalitén på        din mobiltelefon.</p>
+        <p>
+        Har du någonsin suttit och lyssnat på musik med 
+        </p></td>
+        <td width="50%" valign="top"><img src="images/apple-earbuds-png.png"></td>
+      </tr>
+    </table>
+  </div>
+  <div id="four">
+    <h1>Butik</h1>
+    <table width="100%" cellpadding="0" cellspacing="10" border="0">
+      <tr>
+        <td width="50%" valign="top"><p>
+          <p>Vår produkt är under utveckling så butiken hålls stängd tills vidare. </p>
+			     <a href="http://www.yourvismawebsite.com/magnetambulansen-uf">Gå till Butiken!</a>
+        </p></td>
+        <td width="50%" valign="top"><img src="images/Usher++PNG.png"></td>
+      </tr>
+    </table>
+  </div>
+  <div id="five">
+    <h1>Kontakta oss</h1>	
+    	<div id="kolumn1" style="width:800px; margin:0 auto;">
+   			
+            <form class="email" action="mailer.php" method="post">
+            <p>Ditt namn:</p>
+            <input type="text" name="name" />  
+            <p>Din Email-Adress:</p>
+            <input type="text" name="email" />
+            <p>Ditt meddelande:</p>
+            <textarea rows="4" cols="50" name="message"></textarea></p>
+            <input type="submit" class="send" value="Skicka">
+            </form>
+     </div>
+  </div>
+<div id="six">
+    <h1>Samarbetspartners</h1>
+    <table width="100%" cellpadding="0" cellspacing="10" border="0">
+      <tr>
+        <td width="50%" valign="top"><p>
+          <p>Vår produkt är under utveckling så butiken hålls stängd tills vidare. </p>
+           <a href="http://www.yourvismawebsite.com/magnetambulansen-uf">Gå till Butiken!</a>
+        </p></td>
+        <td width="50%" valign="top"><img src="images/Usher++PNG.png"></td>
+      </tr>
+    </table>
+  </div>
+
+
+</div>
+    
+		<footer>
+		<div class="footer">
+        	<center><p>Mobilambulansen UF © Alla rättigheter förbehålls.
+    2013-2014</p></center>
+      	</div>
+		</footer>
+</body>
+</html>
